@@ -1,0 +1,64 @@
+<div class="container1">
+
+    <div class="logo">
+        <mat-icon class="arrow" routerLink="/signup">arrow_back</mat-icon>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSx6nGYpsIXE37UP5wG62eSBucCZocE6HNuA&usqp=CAU"
+            alt="">
+    </div>
+    <h1>Creat your account</h1>
+    <div class="fb">
+        <button mat-fab extended><mat-icon>facebook</mat-icon>Continue with Facebook</button><br>
+    </div>
+    <div class="google">
+        <button  mat-fab extended> <asl-google-signin-button *ngIf="!user"></asl-google-signin-button>&nbsp;&nbsp; <h4>Continue With Google</h4></button>
+    </div><br>
+
+
+
+    <!--form-->
+
+    <form class="form" [formGroup]="signupForm">
+        <h3>OR LOGIN WITH EMAIL</h3>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Enter your fullname</mat-label>
+            <input formControlName="fullname" matInput placeholder="Fullname" required>
+            <mat-error *ngIf="signupForm.controls['fullname'].errors && signupForm.controls['fullname'].touched">
+                <small *ngIf="fullname?.hasError('required')" class="small">fullname is required</small>
+                <small *ngIf="fullname?.hasError('pattern')" class="small">fullname is incorrect,capitalize the first letter</small>
+            </mat-error>
+            <button mat-icon-button matSuffix>
+                <mat-icon>check</mat-icon>
+            </button>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Enter your email</mat-label>
+            <input formControlName="email" matInput placeholder="Email Address" required>
+            <mat-error *ngIf="signupForm.controls['email'].errors && signupForm.controls['email'].touched">
+                <small *ngIf="email?.hasError('required')" class="small">Email is required</small>
+                <small *ngIf="email?.hasError('pattern')" class="small">Email is Incorrect</small>
+            </mat-error>
+            <button mat-icon-button matSuffix>
+                <mat-icon>email</mat-icon>
+            </button>
+        </mat-form-field>
+
+
+        <mat-form-field appearance="outline">
+            <mat-label>Enter your password</mat-label>
+            <input formControlName="pass" matInput [type]="hide ? 'password' : 'text'" required>
+            <mat-error *ngIf="signupForm.controls['pass'].errors && signupForm.controls['pass'].touched">
+                <small *ngIf="pass?.hasError('required')" class="small">Password is required</small>
+                <small *ngIf="pass?.hasError('pattern')" class="small">Not a valid password Format(U,L,@,Num)</small>
+            </mat-error>
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                [attr.aria-pressed]="hide">
+                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+        </mat-form-field>
+
+
+        <button class="su" mat-fab extended (click)="signUp()" [disabled]="signupForm.invalid">GET STARTED</button><br>
+
+    </form>

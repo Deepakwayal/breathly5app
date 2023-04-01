@@ -1,0 +1,40 @@
+<app-navbar></app-navbar>
+<p>
+    <mat-toolbar>
+      <mat-toolbar-row class="tab1" >
+        <mat-icon routerLink="/home">arrow_backward</mat-icon>
+        <h1>Relax</h1>
+        <mat-icon>alarm</mat-icon>
+        
+      </mat-toolbar-row>
+  
+      <mat-toolbar-row class="tab2">
+        <span routerLink="/relx">Melodies</span>
+        <span routerLink="/breathing">Breathing</span>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  </p>
+  
+
+<div class="container1">
+    <!-- <div class="h">
+        <h1>Melodies</h1>
+    </div> -->
+    <mat-grid-list cols="7" rowHeight="1:1" gutterSize="30px">
+        <mat-grid-tile (click)="mSong(item.song)" *ngFor="let item of melody" style="background-image:url('{{item.ipath}}');background-size: cover;background-repeat: no-repeat;">
+                <h4>{{item.name}}</h4>
+                <audio controls src={{item.song}}></audio>
+            
+        </mat-grid-tile>
+    </mat-grid-list><br><br><br><br><br>
+</div>
+
+  <app-bottomheader></app-bottomheader>
+
+
+
+
+
+
+
+

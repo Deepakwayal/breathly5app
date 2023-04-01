@@ -1,0 +1,38 @@
+<app-navbar ></app-navbar>
+
+<div class="container1">
+  <div class="good">
+    <h1>{{wish}},{{userName}}</h1>
+    <div class="date">
+      <button mat-stroked-button color="primary">{{myDate | date:'EEEE, d MMMM'}}</button>
+    </div>
+    <div class="hour">
+      <button mat-stroked-button color="primary">{{myDate | date:'shortTime'}}</button>
+    </div>
+    <div class="image">
+      <img src="../assets/Images/exhale.gif" alt="">
+    </div>
+  </div>
+</div>
+
+
+<div class="container2">
+  <h1><mat-icon>filter_vintage</mat-icon>&nbsp;Meditation</h1>
+  <hr>
+  <!-- Row 1 -->
+  <div class="row" id="step2">
+    <div class="col-md-4" (click)="playmusic(item)" *ngFor="let item of itemsong">
+      <mat-card class="example-card">
+        <img mat-card-image src="{{item.ipath}}" height="200">
+        <mat-card-content>
+          <mat-card-title>{{item.name}}</mat-card-title>
+          <mat-card-subtitle>Williaim</mat-card-subtitle>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+  <br><app-footer></app-footer><br><br><br><br>
+</div>
+
+
+<app-bottomheader></app-bottomheader>

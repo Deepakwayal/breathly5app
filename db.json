@@ -1,0 +1,263 @@
+{
+  "Signup": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "fullname": "Deepak Wayal",
+      "email": "deepakwayal5@gmail.com",
+      "pass": "Pass@123",
+      "id": 2
+    },
+    {
+      "name": "Deepak Wayal",
+      "email": "deepakwayal5@gmail.com",
+      "password": " ",
+      "id": 3
+    },
+    {
+      "name": "Deepak Wayal",
+      "email": "deepakwayal5@gmail.com",
+      "password": " ",
+      "id": 4
+    }
+  ],
+  "song": [
+    {
+      "id": 1,
+      "name": "Daily Meditation",
+      "ipath": "https://images.unsplash.com/photo-1474418397713-7ede21d49118?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWVkaXRhdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "song": [
+        "../../assets/music/Daily-Motivation/Daily-Motivation1.mp3",
+        "../../assets/music/Daily-Motivation/Daily-Motivation2.mp3",
+        "../../assets/music/Daily-Motivation/Daily-Motivation3.mp3",
+        "../../assets/music/Daily-Motivation/Daily-Motivation4.mp3"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Relaxation",
+      "ipath": "https://media.istockphoto.com/id/1366696075/photo/girl-resting-and-warming-her-feet-by-a-burning-fireplace-in-a-country-house-on-a-winter.jpg?b=1&s=170667a&w=0&k=20&c=NM4dGmx9DJ8vCBAyLfxikOGZVnmSyDMn11BV8w9RpJg=",
+      "song": [
+        "../../assets/music/Relaxation/Calm.mp3",
+        "../../assets/music/Relaxation/calming-sounds-124055.mp3",
+        "../../assets/music/Relaxation/endless-by-prabajithk-118998.mp3",
+        "../../assets/music/Relaxation/healing-music-121007.mp3",
+        "../../assets/music/Relaxation/meditation-sounds-122698.mp3",
+        "../../assets/music/Relaxation/please-calm-my-mind-125566 (1).mp3",
+        "../../assets/music/Relaxation/Relaxation.mp3",
+        "../../assets/music/Relaxation/Relaxation.ogg",
+        "../../assets/music/Relaxation/relax-chill-out-music-for-landscapes-under-water-animals-forests-8105.mp3",
+        "../../assets/music/Relaxation/relaxing-music-vol14-133462.mp3",
+        "../../assets/music/Relaxation/soothing.mp3",
+        "../../assets/music/Relaxation/starlight.mp3"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Mental Health",
+      "ipath": "data:image/png;base64,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",
+      "song": [
+        "../../assets/music/Mental-health/Mental-health.mp3",
+        "../../assets/music/Mental-health/Mental-health1.mp3",
+        "../../assets/music/Mental-health/Mental-health3.mp3",
+        "../../assets/music/Mental-health/Mental-health4.mp3",
+        "../../assets/music/Mental-health/Mental-health5.mp3"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Nature Sound",
+      "ipath": "https://cdn.pixabay.com/photo/2017/03/01/23/50/frog-2109984__340.jpg",
+      "song": [
+        "../../assets/music/Nature-sound/Nature1.mp3",
+        "../../assets/music/Nature-sound/Nature2.mp3",
+        "../../assets/music/Nature-sound/Nature3.mp3",
+        "../../assets/music/Nature-sound/Nature4.mp3",
+        "../../assets/music/Nature-sound/Nature5.mp3",
+        "../../assets/music/Nature-sound/Nature6.mp3"
+      ]
+    },
+    {
+      "id": 5,
+      "name": " Heaven",
+      "ipath": "https://cdn.pixabay.com/photo/2016/04/15/10/23/grindelwald-1330662__340.jpg",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Breathing",
+      "ipath": "https://t4.ftcdn.net/jpg/03/00/58/71/240_F_300587132_hBzBaOoNy8q8suLQO1QipVn2x5YFxmnV.jpg",
+      "song": [
+        "../../assets/music/Breathing/Breathing1.mp3",
+        "../../assets/music/Breathing/Breathing2.mp3",
+        "../../assets/music/Breathing/Breathing3.mp3",
+        "../../assets/music/Breathing/Breathing4.mp3"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sky Walk",
+      "ipath": "https://t3.ftcdn.net/jpg/02/69/40/96/240_F_269409696_j7wG9piSabfp7rOc4fAHTzeVDTXKj1OI.jpg",
+      "song": [
+        "../../assets/music/Sky-walk/Sky-walk1.mp3",
+        "../../assets/music/Sky-walk/Sky-walk2.mp3",
+        "../../assets/music/Sky-walk/Sky-walk3.mp3",
+        "../../assets/music/Sky-walk/Sky-walk4.mp3"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Mountains",
+      "ipath": "https://media.istockphoto.com/id/1288385045/photo/snowcapped-k2-peak.jpg?s=612x612&w=0&k=20&c=sfA4jU8kXKZZqQiy0pHlQ4CeDR0DxCxXhtuTDEW81oo=",
+      "song": [
+        "../../assets/music/Mountains/Mountain1.mp3",
+        "../../assets/music/Mountains/Mountain2.mp3",
+        "../../assets/music/Mountains/Mountain3.mp3",
+        "../../assets/music/Mountains/Mountain4.mp3"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Mind Theropy",
+      "ipath": "https://media.istockphoto.com/id/1132057926/photo/incense-stick-and-smoke-from-incense-burning-beautiful-smoke-blurred-background-and-design.jpg?s=612x612&w=0&k=20&c=fCdQT4_H_JIR_ef-rZqS71dJzpEuTZmkI90wSl0x1Mk=",
+      "song": [
+        "../../assets/music/Mountains/Mountain1.mp3",
+        "../../assets/music/Mountains/Mountain2.mp3",
+        "../../assets/music/Mountains/Mountain3.mp3",
+        "../../assets/music/Mountains/Mountain4.mp3"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Waterfall",
+      "ipath": "https://cdn.pixabay.com/photo/2017/08/07/23/11/iceland-2608985__340.jpg",
+      "song": [
+        "../../assets/music/Melodies/Waterfall.mp3",
+        "../../assets/music/Melodies/Tornado.mp3",
+        "../../assets/music/Melodies/Rain.mp3",
+        "../../assets/music/Melodies/Ocean.mp3"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Stone",
+      "ipath": "https://img.freepik.com/free-photo/3d-landscape-with-stepping-stones-ocean-against-sunset-sky_1048-8634.jpg?size=626&ext=jpg&ga=GA1.1.1000049806.1675245828&semt=ais",
+      "song": [
+        "../../assets/music/Melodies/Snow.mp3",
+        "../../assets/music/Melodies/Relax.mp3",
+        "../../assets/music/Melodies/Sand.mp3",
+        "../../assets/music/Melodies/Wind.mp3"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Forest",
+      "ipath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnosLzI2Nrb9GiAAZCKcJgM6_clMsJfAVGww&usqp=CAU",
+      "song": [
+        "../../assets/music/Melodies/Forest.mp3",
+        "../../assets/music/Melodies/Birds.mp3",
+        "../../assets/music/Melodies/Night.mp3",
+        "../../assets/music/Melodies/Nature.mp3",
+        "../../assets/music/Melodies/Hazzard.mp3"
+      ]
+    }
+  ],
+  "melodies": [
+    {
+      "id": 1,
+      "name": "Birds",
+      "ipath": "https://media.istockphoto.com/id/183412466/photo/eastern-bluebirds-male-and-female.jpg?s=612x612&w=0&k=20&c=6_EQHnGedwdjM9QTUF2c1ce7cC3XtlxvMPpU5HAouhc=",
+      "song": "../../assets/music/Melodies/Birds.mp3"
+    },
+    {
+      "id": 2,
+      "name": "Forest",
+      "ipath": "https://media.istockphoto.com/id/1398528556/photo/view-through-a-beautiful-enchanting-fairy-tale-woodland-onto-a-castle-and-a-sailing-ship.jpg?b=1&s=170667a&w=0&k=20&c=NbHzFOd0g0LolP5vURVFU8w3s9dL1Lkxn3ZecoPvfIc=",
+      "song": "../../assets/music/Melodies/Forest.mp3"
+    },
+    {
+      "id": 3,
+      "name": "Hazzard",
+      "ipath": "https://media.istockphoto.com/id/517523891/photo/volcanic-eruption-at-night.jpg?s=612x612&w=0&k=20&c=b3UmklqG0LHoZa9SrAjLTRQPAutg0lVQxhheCG5oXYw=",
+      "song": "../../assets/music/Melodies/Hazzard.mp3"
+    },
+    {
+      "id": 4,
+      "name": "Lake",
+      "ipath": "https://media.istockphoto.com/id/1353429720/photo/vogel-state-park-georgia-usa-in-autumn.jpg?b=1&s=170667a&w=0&k=20&c=VCVm-vMRStQXWJ5yqt1C5yvNqRzbsTtN_qkE-SWGEYE=",
+      "song": "../../assets/music/Melodies/Lake.mp3"
+    },
+    {
+      "id": 5,
+      "name": "Nature",
+      "ipath": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "song": "../../assets/music/Melodies/Nature.mp3"
+    },
+    {
+      "id": 6,
+      "name": "Night",
+      "ipath": "https://images.unsplash.com/photo-1507400492013-162706c8c05e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=359&q=80",
+      "song": "../../assets/music/Melodies/Night.mp3"
+    },
+    {
+      "id": 7,
+      "name": "Ocean",
+      "ipath": "https://images.unsplash.com/photo-1559825481-12a05cc00344?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8b2NlYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "song": "../../assets/music/Melodies/Ocean.mp3"
+    },
+    {
+      "id": 8,
+      "name": "Rain",
+      "ipath": "https://images.unsplash.com/photo-1620385019253-b051a26048ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHJhaW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "song": "../../assets/music/Melodies/Rain.mp3"
+    },
+    {
+      "id": 9,
+      "name": "Relax",
+      "ipath": "https://plus.unsplash.com/premium_photo-1665664796046-1e49cffcf162?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVsYXh8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "song": "../../assets/music/Melodies/Relax.mp3"
+    },
+    {
+      "id": 10,
+      "name": "Sand",
+      "ipath": "https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c2FuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "song": "../../assets/music/Melodies/Sand.mp3"
+    },
+    {
+      "id": 11,
+      "name": "Tornado",
+      "ipath": "https://media.istockphoto.com/id/1365906737/photo/tornado-storm-severe-weather-landscape.jpg?s=612x612&w=0&k=20&c=mV1pX-S4BelP5-A--o2z71fJmhbnHk-JnOVZlVMjyHU=",
+      "song": "../../assets/music/Melodies/Tornado.mp3"
+    },
+    {
+      "id": 12,
+      "name": "Waterfall",
+      "ipath": "https://images.unsplash.com/photo-1495298132357-1bc89b451194?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdhdGVyZmFsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "song": "../../assets/music/Melodies/Waterfall.mp3"
+    },
+    {
+      "id": 13,
+      "name": "Wind",
+      "ipath": "https://images.unsplash.com/photo-1561644027-7cf93eb104da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHdpbmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "song": "../../assets/music/Melodies/Wind.mp3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

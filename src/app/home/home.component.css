@@ -1,0 +1,112 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+   
+}
+*{
+    margin: 0;
+    /* padding: 0; */
+  }
+.good {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: azure;
+   
+    padding-bottom: 200px;
+}
+
+.good h1 {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: #244855;
+    font-family: Georgia, serif;
+    margin-top: 100px;
+}
+
+.date {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.hour {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+/* .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+.image img {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-top: 30px;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container2 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   color:  #626fff;
+   font-weight: bold;
+   margin-top: 40px;
+
+}
+
+.example-card {
+    max-width: 400px;
+    max-height: 300px;
+    margin-top: 20px;  
+   display: flex;
+   justify-content: center;
+   
+    
+  }
+
+  #step2{
+    margin-top: 40px;
+  }
+
+ @media screen and (max-width:760px) {
+    #step2{
+        display: grid;
+       grid-template-columns: auto;
+       justify-content: center;
+
+    }
+ }
+
+ @media screen and (max-width:480px) {
+    #step2{
+        display: grid;
+       grid-template-columns:  auto;
+
+    }
+ }

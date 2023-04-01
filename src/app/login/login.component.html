@@ -1,0 +1,54 @@
+<div class="container1">
+    <div class="logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSx6nGYpsIXE37UP5wG62eSBucCZocE6HNuA&usqp=CAU"
+            alt="">
+    </div>
+    <h1>Welcome Back!</h1>
+    <div class="fb">
+        <button mat-fab extended><mat-icon>facebook</mat-icon>Continue with Facebook</button><br>
+    </div>
+    <div class="google">
+        <button  mat-fab extended> <asl-google-signin-button *ngIf="!user"></asl-google-signin-button>&nbsp;&nbsp; <h4>Continue With Google</h4></button>
+    </div><br>
+
+
+ 
+    <!--form-->
+
+    <form class="form" [formGroup]="loginForm">
+        <h3>OR LOGIN WITH EMAIL</h3>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Enter your email</mat-label>
+            <input formControlName="email" matInput placeholder="Email Address" required>
+            <mat-error *ngIf="loginForm.controls['email'].errors && loginForm.controls['email'].touched">
+                <small *ngIf="email?.hasError('required')" class="small">Email is required</small>
+                <small *ngIf="email?.hasError('pattern')" class="small">Email is Incorrect</small>
+            </mat-error>
+
+            <button mat-icon-button matSuffix>
+                <mat-icon>email</mat-icon>
+            </button>
+        </mat-form-field>
+
+
+        <mat-form-field appearance="outline">
+            <mat-label>Enter your password</mat-label>
+            <input formControlName="pass" matInput [type]="hide ? 'password' : 'text'">
+            <mat-error *ngIf="loginForm.controls['pass'].errors && loginForm.controls['pass'].touched">
+                <small *ngIf="pass?.hasError('required')" class="small">Password is required</small>
+                <small *ngIf="pass?.hasError('pattern')" class="small">Not a valid password Format(U,L,@,Num)</small>
+            </mat-error>
+
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                [attr.aria-pressed]="hide">
+                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+        </mat-form-field>
+
+
+        <button class="su" mat-fab extended routerLink="/start">LOG IN</button><br>
+        <p>Forget Password</p>
+
+        <p>New User?<a routerLink="/signup"><b>SIGN UP</b></a></p>
+    </form>

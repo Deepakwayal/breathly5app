@@ -1,0 +1,170 @@
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+   border: 1px solid;
+   width: 400px;
+   margin: auto;
+   margin-top: 20px;
+
+}
+ 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-right: 130px; */
+}
+.arrow{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid;
+    size: 50px;
+    /* position: absolute; */
+    border-radius: 25px;
+    margin-right: 240px;
+  
+}  
+
+.logo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    border: #7f84be;
+    /* margin-top: 40px; */
+    justify-content: center;
+    flex-direction: row;
+    /* position: fixed; */
+}
+
+.container1 h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.fb button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 280px;
+    background-color: #ffcd57;
+    color: white;
+}
+
+.container1 button:hover {
+    background-color: #008890;
+    color: #ffcd57;
+
+}
+
+.google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.google button {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 280px;
+    background-color: #ffffff;
+    color: #000000;
+
+}
+asl-google-signin-button{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-top: 8px;
+    
+    
+}
+h4{
+display: flex;
+justify-content: row;
+text-align: center;
+float: right;
+margin-top: 10px;
+
+}
+
+/* .google img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    height: 3vh;
+} */
+mat-icon{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+/*Form*/
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 280px;
+}
+
+
+.form h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    
+
+}
+
+.login button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 280px;
+    background-color: #ffffff;
+    color: #000000;
+}
+/* .form p{
+    display: flex;
+    flex-wrap: wrap;
+    color: gray;
+    justify-content: center;
+} */
+.su{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 290px;
+    background-color: #ffcd57;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

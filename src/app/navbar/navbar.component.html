@@ -1,0 +1,47 @@
+
+    <mat-toolbar>
+      <button mat-icon-button   class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon >headset</mat-icon>
+      </button>
+     
+
+      <div class="img1">
+      <img src="../assets/Images/Vanilla-1s-280px (1).gif" alt="">
+      </div>
+
+      <span class="example-spacer"></span>
+      <!-- <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button> -->
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>share</mat-icon>
+      </button>
+
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>notifications</mat-icon>
+      </button>
+      <button mat-icon-button [matMenuTriggerFor]="menu" class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>account_circle</mat-icon>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item><mat-icon id="menu">person</mat-icon>Profile</button>
+          <button mat-menu-item><mat-icon id="menu">account_balance</mat-icon>My account</button>
+          <button mat-menu-item (click)="logout()"><mat-icon id="menu" >logout</mat-icon>Logout</button>
+        </mat-menu>
+      </button>
+    </mat-toolbar>
+  
+
+    <!-- <mat-sidenav-container> (click)="sidenav.toggle()"
+      <mat-sidenav #sidenav mode="side">
+        fasfsf
+         insert your side navigation component here 
+      </mat-sidenav>
+      <mat-sidenav-content>
+      .
+         insert your main content here 
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+     -->

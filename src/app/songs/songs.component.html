@@ -1,0 +1,41 @@
+
+<app-navbar></app-navbar>
+
+<div class="container2">
+<main class="player">
+    <div class="header">
+        <a href="/" class="button">
+            <i class="fas fa-bars" aria-hidden="true"></i>
+            <span class="sr-only">menu bar</span>
+        </a>
+        <p>Now Playing</p>
+        <a href="/search" class="button">
+            <i class="fas fa-search" aria-hidden="true"></i>
+            <span class="sr-only">Search</span>
+        </a>
+    </div><!--  header  -->
+    <img src="{{playList.ipath}}" alt="album art" class="art"><!--  art  -->
+    <div class="info">
+        <h1>{{playList.name}}</h1>
+        <!-- <p>Elanor Rigby</p> -->
+    </div><!--  info  -->
+    <div class="prog">
+        <div class="prog-time" id="myAudio" *ngFor="let song of playList.song">
+            <audio controls src="{{song}}"></audio>
+        
+        </div>
+        <!-- <div class="prog-bar">
+            <div class="prog-bar-inner"></div>
+        </div> -->
+    </div><!--  progress  -->
+ 
+    <div class="bar"></div><!--  bar  -->
+
+    <div class="icon">
+        <mat-icon>favorite_border</mat-icon>
+        <mat-icon>playlist_add</mat-icon>
+        <mat-icon>alarm</mat-icon>
+        <mat-icon>more_vert</mat-icon>
+    </div>
+</main>
+</div>

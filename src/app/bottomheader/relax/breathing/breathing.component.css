@@ -1,0 +1,96 @@
+.timer {
+    display: flex;
+    justify-content: space-between;
+    background: #7f84be;
+    /* background: -webkit-linear-gradient(to right,#7f84be, #7f84be);
+    background: linear-gradient(to right,#7f84be, #7f84be); */
+  }
+  .timer mat-icon {
+    margin: 40px;
+    color: white;
+  }
+ 
+  .start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65%;
+    background: #7f84be;
+    /* background: -webkit-linear-gradient(to right, #dbd5a4, #649173);
+    background: linear-gradient(to right, #dbd5a4, #649173); */
+    border-bottom-left-radius: 50% 40%;
+    border-bottom-right-radius: 50% 40%;
+  }
+  .start button {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    animation: breathing 5s ease-out infinite normal;
+    font-size: 16px;
+  }
+  
+  @keyframes breathing {
+    0% {
+      box-shadow: 0 0 0 15px rgb(217, 222, 219), 0 0 0 30px rgb(221, 226, 223),
+        0 0 0 45px rgb(201, 210, 204), 0 0 0 60px rgb(191, 202, 195),
+        0 0 0 75px rgb(179, 188, 182);
+    }
+    50% {
+      box-shadow: 0 0 0 25px rgba(217, 222, 219), 0 0 0 50px rgb(221, 226, 223),
+        0 0 0 75px rgb(201, 210, 204), 0 0 0 100px rgb(191, 202, 195),
+        0 0 0 125px rgba(179, 188, 182);
+    }
+    100% {
+      box-shadow: 0 0 0 15px rgba(217, 222, 219), 0 0 0 30px rgba(221, 226, 223),
+        0 0 0 45px rgba(201, 210, 204), 0 0 0 60px rgba(191, 202, 195),
+        0 0 0 75px rgba(179, 188, 182);
+    }
+  }
+  
+  .stop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+  }
+  .stop button {
+    height: 50px;
+    width: 500px;
+    border-radius: 50px;
+    background-color: #7f84be;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .start {
+      height: 65%;
+    }
+    .start button {
+      width: 109px;
+      height: 125px;
+    }
+    .stop {
+      height: 10%;
+    }
+    .stop button {
+      height: 40px;
+      width: 250px;
+    }
+  }
+  
+  @media screen and (min-width: 481px) and (max-width: 1080px) {
+    .start {
+      height: 65%;
+    }
+    .start button {
+      width: 200px;
+      height: 200px;
+    }
+    .stop {
+      height: 10%;
+    }
+    .stop button {
+      height: 50px;
+      width: 450px;
+    }
+  }
