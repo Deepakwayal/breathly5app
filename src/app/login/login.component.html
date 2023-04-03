@@ -47,7 +47,7 @@
         </mat-form-field>
 
 
-        <button class="su" mat-fab extended routerLink="/start">LOG IN</button><br>
+        <button class="su" mat-fab extended (click)="logIn()" [disabled]="loginForm.invalid">LOG IN</button><br>
         <p>Forget Password</p>
 
         <p>New User?<a routerLink="/signup"><b>SIGN UP</b></a></p>
